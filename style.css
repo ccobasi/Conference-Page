@@ -33,3 +33,33 @@ body {
 .nav-link:hover {
   color: #ec5242 !important;
 }
+
+/*============= Landing Section =============*/
+
+.landing-section {
+  width: 100%;
+  height: 100vh;
+  background: url(images/landing-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+.header-text {
+  color: #ec5242;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+.landing-p {
+  margin: 20px 0;
+  background: #ecebeb;
+  border: 1px solid #fff;
+}
+
+.landing-date h2 {
+  font-weight: 900;
+  color: #ec5242;
+}
+
+.landing-date p {
+  color: #ec5242;
+}
