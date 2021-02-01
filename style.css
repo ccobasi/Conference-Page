@@ -150,3 +150,36 @@ body {
 small {
   color: #ec5242;
 }
+
+/*============= Partner Section =============*/
+
+.partner {
+  background-color: #272a31;
+  background-size: cover;
+  height: auto;
+}
+
+.partner .main-title {
+  color: #d3d3d3;
+}
+
+.partner hr {
+  background-color: #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.brand-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-icons .cols {
+  width: 45%;
+}
+.partner img {
+  margin: 0.4em;
+  width: 65%;
+}
