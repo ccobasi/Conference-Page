@@ -183,3 +183,32 @@ small {
   margin: 0.4em;
   width: 65%;
 }
+
+/*============= Footer Section =============*/
+
+.footer {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+}
+
+.footer-logo {
+  margin-right: 2rem;
+}
+
+.footer-logo-img {
+  height: 5rem;
+}
+
+.footer-copyright {
+  font-size: 1rem;
+  align-self: center;
+  font-weight: 800;
+  color: #272a31;
+}
+
+.footer-copyright:hover {
+  color: #031f37;
+}
