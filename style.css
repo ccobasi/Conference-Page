@@ -51,8 +51,9 @@ body {
 
 .landing-p {
   margin: 20px 0;
-  background: #ecebeb;
+  background-color: rgba(0, 0, 0, 0.5) !important;
   border: 1px solid #fff;
+  color: #d3d3d3;
 }
 
 .landing-date h2 {
@@ -110,4 +111,42 @@ body {
   border-radius: 0.8rem;
   cursor: pointer;
   transition: all 0.3s;
+}
+
+/*============= Instructors Section =============*/
+
+.instructors {
+  background-color: #fff;
+  background-size: cover;
+  height: auto;
+}
+
+.main-title {
+  color: #272a31;
+  font-weight: 900;
+}
+
+.instructors hr {
+  background-color: #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.instructors .cols {
+  background-color: #ecebeb;
+  color: #272a31;
+  width: 100%;
+  opacity: 0.9;
+  margin: 0.2em 0;
+}
+
+.instructors .card-img {
+  width: 130px;
+  height: 130px;
+  display: block !important;
+  margin: 1em 0px 0px;
+}
+
+small {
+  color: #ec5242;
 }
