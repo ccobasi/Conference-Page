@@ -1,0 +1,35 @@
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  color: #272a31;
+}
+
+.topbar a {
+  color: #272a31;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+/*============= Navigation =============*/
+.navbar {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.navbar-brand img {
+  height: 3rem;
+}
+
+.nav-item {
+  padding: 0.5rem;
+}
+
+.nav-link {
+  color: #272a31 !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #ec5242 !important;
+}
