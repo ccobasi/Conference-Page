@@ -63,3 +63,51 @@ body {
 .landing-date p {
   color: #ec5242;
 }
+
+/*============= Main Program Section =============*/
+
+.main-Program {
+  background-color: #272a31;
+  background-size: cover;
+  height: auto;
+}
+
+.main-title {
+  color: #d3d3d3;
+}
+
+.main-Program hr {
+  background-color: #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.main-Program .cols {
+  background-color: #fff;
+  color: #272a31;
+  width: 100%;
+  opacity: 0.9;
+  margin: 0.2em 0;
+}
+
+.card-img {
+  height: 50px;
+  width: 60px;
+}
+
+.card-title {
+  color: #ec5242;
+}
+
+.section-button {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  border: none;
+  background-color: #ec5242;
+  color: #a4becd;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
