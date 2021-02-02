@@ -4,10 +4,18 @@ body {
   color: #272a31;
 }
 
-.topbar a {
-  color: #272a31;
+.top-bar {
+  background-color: #272a31 !important;
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+}
+
+.top-bar a {
+  color: #d3d3d3;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  padding-right: 10px;
 }
 
 /*============= Navigation =============*/
@@ -34,11 +42,21 @@ body {
   color: #ec5242 !important;
 }
 
+.btn-outline {
+  border: 4px solid #ec5242;
+  color: #ec5242;
+}
+
+.btn-outline:hover {
+  background-color: #ec5242;
+  color: #fff;
+}
+
 /*============= Landing Section =============*/
 
 .landing-section {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background: url(asset/images/landing-bg.jpg) no-repeat;
   background-size: cover;
   background-position: left top;
@@ -155,7 +173,7 @@ body {
 
 .instructors .card-img {
   width: 130px;
-  height: 130px;
+  height: auto;
   display: block !important;
   margin: 1em 0px 0px;
 }

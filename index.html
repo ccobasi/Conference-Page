@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="asset/css/font-awesome.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap"
       rel="stylesheet"
@@ -15,11 +16,20 @@
   </head>
   <body>
     <!-- Top Bar -->
-
+      <div class="top-bar d-none d-md-block">
+        <div class="container-fluid">
+          <div class="d-none d-md-block text-right text-white">
+              <a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#">English</a>
+              <a href="#">My Page</a>
+              <a href="#">Logout</a>
+          </div>
+        </div>
+    </div>
     <!-- End Top Bar -->
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
+    <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
       <div class="container">
         <a href="index.html" class="navbar-brand"
           ><img src="asset/images/logo.png" alt="Logo"
@@ -44,6 +54,9 @@
               <a href="ticket.html" class="nav-link">Ticket</a>
             </li>
           </ul>
+          <div class="d-none d-md-block ml-md-5">
+                        <a href="ticket.html" class="btn btn-outline rounded-0">Request</a>
+                    </div>
         </div>
       </div>
     </nav>
@@ -51,8 +64,8 @@
 
     <!-- Landing Section -->
     <div class="landing-section">
-      <div class="container">
-        <div class="header-text my-4">
+      <div class="container pt-5">
+        <div class="header-text  pt-5">
           <h3>Bringing the art to cart...</h3>
           <h1 class="h1-text text-uppercase">
             Chukwuma Web Development Bootcamp
@@ -60,10 +73,9 @@
         </div>
         <div class="landing-p">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            nulla deleniti incidunt cum id eius suscipit dolorem amet commodi,
-            laboriosam veniam omnis animi molestiae in neque dolores libero et?
-            Distinctio.
+            @ CWS bootcamp you will learn how to code from zero level to
+            mastery. With our industry-practitioner instructors, you can develop
+            your own with in a short period.
           </p>
         </div>
 
@@ -174,10 +186,11 @@
             </div>
           </div>
         </div>
-
-        <button class="section-button align-item-center">
-          See the whole program &rarr;
-        </button>
+        <div class="justify-content-center text-center m-auto">
+            <button class="section-button align-item-center">
+            See More Program
+          </button>
+        </div>
       </div>
     </section>
     <!-- End of Main Program Section -->
