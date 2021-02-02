@@ -86,7 +86,7 @@ body {
   height: auto;
 }
 
-.main-title {
+.main-Program .main-title {
   color: #d3d3d3;
 }
 
@@ -97,7 +97,7 @@ body {
 }
 
 .main-Program .cols {
-  background-color: #fff;
+  background-color: #ecebeb;
   color: #272a31;
   width: 100%;
   opacity: 0.9;
@@ -270,4 +270,29 @@ small {
   color: #fff;
   text-align: center;
   height: 300px;
+}
+
+/*=============  Ticket Section =============*/
+
+.ticket hr {
+  background-color: #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.step-1 {
+  margin: 3rem 0;
+  padding: 1rem;
+  display: inline-flex;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid #a4becd;
+  border-radius: 20rem;
+  font-weight: 300;
+}
+
+.step-info {
+  color: #ec5242;
+  font-weight: bold;
+  padding-right: 1rem;
 }
