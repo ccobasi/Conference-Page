@@ -296,3 +296,34 @@ small {
   font-weight: bold;
   padding-right: 1rem;
 }
+
+.ticket-table {
+  margin: auto;
+  min-width: 80%;
+  border: 10px solid transparent;
+  border-image: repeating-linear-gradient(
+      -45deg,
+      #ec5242 0,
+      #ec5242 1em,
+      transparent 1em,
+      transparent 2em,
+      #272a31 2em,
+      #272a31 3em,
+      transparent 3em,
+      transparent 4em
+    )
+    80 repeat;
+}
+
+.menu-button {
+  font-size: 1.5rem;
+
+  padding: 1rem;
+  text-transform: uppercase;
+  border: none;
+  background-color: #ec5242;
+  color: #d3d3d3;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 150px;
+}
