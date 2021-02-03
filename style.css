@@ -63,7 +63,8 @@ body {
 }
 
 .landing-section-about {
-  background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.63)),
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.63)),
     url(asset/images/op2.jpg) 0 0 no-repeat;
   background-size: cover;
   background-attachment: fixed !important;
@@ -292,7 +293,8 @@ body {
 }
 
 .event-gallery-1 {
-  background: linear-gradient(rgba(243, 106, 27, 0.61), rgba(0, 0, 0, 0.63)),
+  background: 
+  linear-gradient(rgba(243, 106, 27, 0.61), rgba(0, 0, 0, 0.63)),
     url(asset/images/op1.jpg) 0 0 no-repeat;
   background-size: cover;
   background-attachment: fixed !important;
@@ -304,7 +306,8 @@ body {
 }
 
 .event-gallery-2 {
-  background: linear-gradient(rgba(243, 106, 27, 0.61), rgba(0, 0, 0, 0.63)),
+  background: 
+  linear-gradient(rgba(243, 106, 27, 0.61), rgba(0, 0, 0, 0.63)),
     url(asset/images/op4.jpg) 0 0 no-repeat;
   background-size: cover;
   background-attachment: fixed !important;
