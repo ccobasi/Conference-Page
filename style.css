@@ -1,6 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden hidden;
   color: #272a31;
 }
 
@@ -14,23 +14,23 @@ body {
 .top-bar a {
   color: #d3d3d3;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 14px;
   padding-right: 10px;
 }
 
 /*============= Navigation =============*/
 .navbar {
-  font-size: 1.15rem;
+  font-size: 16px;
   font-weight: 600;
-  letter-spacing: 0.1rem;
+  letter-spacing: 1;
 }
 
 .navbar-brand img {
-  height: 3rem;
+  height: 48px;
 }
 
 .nav-item {
-  padding: 0.5rem;
+  padding: 8px;
 }
 
 .nav-link {
@@ -82,7 +82,7 @@ body {
 
 .landing-p {
   margin: 20px 0;
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(36, 32, 32, 0.5) !important;
   border: 1px solid #fff;
   color: #d3d3d3;
 }
@@ -116,10 +116,10 @@ body {
 
 .program-container {
   width: 100%;
-  margin-bottom: 3.5rem;
+  margin-bottom: 56px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1rem;
+  grid-gap: 16px;
   margin: auto;
 }
 
@@ -127,7 +127,7 @@ body {
   background-color: #ecebeb;
   color: #272a31;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.9 0.9;
   margin: 0.2em 0;
 }
 
@@ -150,16 +150,15 @@ body {
 }
 
 .section-button {
-  font-size: 1.5rem;
-  margin: 2rem 0;
+  font-size: 24px;
+  margin: 56px 0;
   padding: 1.5rem;
   text-transform: uppercase;
   border: none;
   background-color: #ec5242;
   color: #a4becd;
-  border-radius: 0.8rem;
+  border-radius: 13px;
   cursor: pointer;
-  transition: all 0.3s;
 }
 
 /*============= Instructors Section =============*/
@@ -183,10 +182,10 @@ body {
 
 .instructor-container {
   width: 100%;
-  margin-bottom: 3.5rem;
+  margin-bottom: 56px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1rem;
+  gap: 16px;
   margin: auto;
 }
 
@@ -225,10 +224,10 @@ body {
 
 .brand-icons {
   width: 100%;
-  margin-bottom: 3.5rem;
+  margin-bottom: 56px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  gap: 16px;
   margin: 0 auto;
 }
 
@@ -252,15 +251,15 @@ body {
 }
 
 .footer-logo {
-  margin-right: 2rem;
+  margin-right: 32px;
 }
 
 .footer-logo-img {
-  height: 5rem;
+  height: 80px;
 }
 
 .footer-copyright {
-  font-size: 1rem;
+  font-size: 16px;
   align-self: center;
   font-weight: 800;
   color: #272a31;
@@ -331,7 +330,7 @@ body {
   padding: 1rem;
   display: inline-flex;
   text-align: center;
-  font-size: 1rem;
+  font-size: 16px;
   border: 1px solid #a4becd;
   border-radius: 20rem;
   font-weight: 300;
@@ -340,7 +339,7 @@ body {
 .step-info {
   color: #ec5242;
   font-weight: bold;
-  padding-right: 1rem;
+  padding-right: 16px;
 }
 
 .ticket-table {
