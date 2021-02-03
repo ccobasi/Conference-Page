@@ -23,7 +23,6 @@ body {
 .navbar {
   font-size: 16px;
   font-weight: 600;
-  letter-spacing: 1;
 }
 
 .navbar-brand img {
@@ -227,13 +226,13 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 16px;
-  margin: 0 auto;
 }
 
 .brand-icons .cols {
   width: auto;
   justify-content: center;
 }
+
 .partner img {
   margin: 0.4em;
   width: 65%;
