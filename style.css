@@ -1,6 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
-  overflow-x: hidden hidden;
+  overflow-x: hidden;
   color: #272a31;
 }
 
@@ -19,6 +19,7 @@ body {
 }
 
 /*============= Navigation =============*/
+
 .navbar {
   font-size: 16px;
   font-weight: 600;
@@ -120,14 +121,13 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 16px;
-  margin: auto;
 }
 
 .main-Program .cols {
   background-color: #ecebeb;
   color: #272a31;
   width: 100%;
-  opacity: 0.9 0.9;
+  opacity: 0.9;
   margin: 0.2em 0;
 }
 
