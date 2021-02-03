@@ -63,7 +63,7 @@ body {
 }
 
 .landing-section-about {
-  background: 
+  background:  
   linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.63)),
     url(asset/images/op2.jpg) 0 0 no-repeat;
   background-size: cover;
@@ -347,18 +347,7 @@ body {
   margin: auto;
   min-width: 80%;
   border: 10px solid transparent;
-  border-image: repeating-linear-gradient(
-          -45deg,
-          #ec5242 0,
-          #ec5242 1em,
-          transparent 1em,
-          transparent 2em,
-          #272a31 2em,
-          #272a31 3em,
-          transparent 3em,
-          transparent 4em
-        )
-      80 repeat;
+  border-image: repeating-linear-gradient(-45deg, #ec5242 0, #ec5242 1em, transparent 1em,transparent 2em,  #272a31 2em,  #272a31 3em,transparent 3em,transparent 4em  )80 repeat;
 }
 
 .menu-button {
