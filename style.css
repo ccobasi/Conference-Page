@@ -18,7 +18,7 @@ body {
   padding-right: 10px;
 }
 
-/*============= Navigation =============*/
+/* ============= Navigation ============= */
 
 .navbar {
   font-size: 16px;
@@ -53,7 +53,7 @@ body {
   color: #fff;
 }
 
-/*============= Landing Section =============*/
+/* ============= Landing Section ============= */
 
 .landing-section {
   width: 100%;
@@ -97,12 +97,17 @@ body {
   color: #ec5242;
 }
 
-/*============= Main Program Section =============*/
+/* ============= Main Program Section ============= */
 
 .main-Program {
   background-color: #272a31;
   background-size: cover;
   height: auto;
+}
+
+.main-title {
+  color: #272a31;
+  font-weight: 900;
 }
 
 .main-Program .main-title {
@@ -161,17 +166,12 @@ body {
   cursor: pointer;
 }
 
-/*============= Instructors Section =============*/
+/* ============= Instructors Section ============= */
 
 .instructors {
   background-color: #fff;
   background-size: cover;
   height: auto;
-}
-
-.main-title {
-  color: #272a31;
-  font-weight: 900;
 }
 
 .instructors hr {
@@ -186,7 +186,6 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 16px;
-  margin: auto;
 }
 
 .instructor-container .card-img {
@@ -204,7 +203,7 @@ body {
   color: #ec5242;
 }
 
-/*============= Partner Section =============*/
+/* ============= Partner Section ============= */
 
 .partner {
   background-color: #272a31;
@@ -240,7 +239,7 @@ body {
   width: 65%;
 }
 
-/*============= Footer Section =============*/
+/* ============= Footer Section ============= */
 
 .footer {
   padding-top: 1rem;
@@ -269,7 +268,7 @@ body {
   color: #031f37;
 }
 
-/*=============  Contact Us Section =============*/
+/* =============  Contact Us Section ============= */
 
 .contact-us .main-title {
   color: #272a31;
@@ -285,7 +284,7 @@ body {
   width: 40%;
 }
 
-/*=============  Past Event Section =============*/
+/* =============  Past Event Section ============= */
 
 .past-event hr {
   background-color: #ec5242;
@@ -317,7 +316,7 @@ body {
   width: 100%;
 }
 
-/*=============  Ticket Section =============*/
+/* =============  Ticket Section ============= */
 
 .ticket hr {
   background-color: #ec5242;
