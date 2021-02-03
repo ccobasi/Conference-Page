@@ -291,10 +291,10 @@ body {
 }
 
 .event-gallery-1 {
-  background: 
-   linear-gradient(rgba(243, 106, 27, 0.61), 
-   rgba(0, 0, 0, 0.63)),
-   url(asset/images/op1.jpg) 0 0 no-repeat;
+  background:
+  linear-gradient(rgba(243, 106, 27, 0.61), 
+rgba(0, 0, 0, 0.63)),
+  url(asset/images/op1.jpg) 0 0 no-repeat;
   background-size: cover;
   background-attachment: fixed !important;
   background-position: center;
@@ -307,7 +307,7 @@ body {
 .event-gallery-2 {
   background: 
   linear-gradient(rgba(243, 106, 27, 0.61), 
-  rgba(0, 0, 0, 0.63)),
+ rgba(0, 0, 0, 0.63)),
   url(asset/images/op4.jpg) 0 0 no-repeat; 
   background-size: cover;
   background-attachment: fixed !important;
