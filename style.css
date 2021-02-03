@@ -348,17 +348,17 @@ body {
   min-width: 80%;
   border: 10px solid transparent;
   border-image: repeating-linear-gradient(
-      -45deg,
-      #ec5242 0,
-      #ec5242 1em,
-      transparent 1em,
-      transparent 2em,
-      #272a31 2em,
-      #272a31 3em,
-      transparent 3em,
-      transparent 4em
-    )
-    80 repeat;
+          -45deg,
+          #ec5242 0,
+          #ec5242 1em,
+          transparent 1em,
+          transparent 2em,
+          #272a31 2em,
+          #272a31 3em,
+          transparent 3em,
+          transparent 4em
+        )
+      80 repeat;
 }
 
 .menu-button {
