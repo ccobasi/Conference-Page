@@ -292,7 +292,9 @@ body {
 
 .event-gallery-1 {
   background: 
-  linear-gradient(rgba(243, 106, 27, 0.61), rgba(0, 0, 0, 0.63)),url(asset/images/op1.jpg) 0 0 no-repeat;
+   linear-gradient(rgba(243, 106, 27, 0.61), 
+   rgba(0, 0, 0, 0.63)),
+   url(asset/images/op1.jpg) 0 0 no-repeat;
   background-size: cover;
   background-attachment: fixed !important;
   background-position: center;
@@ -304,7 +306,9 @@ body {
 
 .event-gallery-2 {
   background: 
-  linear-gradient(rgba(243, 106, 27, 0.61), rgba(0, 0, 0, 0.63)),url(asset/images/op4.jpg) 0 0 no-repeat;
+  linear-gradient(rgba(243, 106, 27, 0.61), 
+  rgba(0, 0, 0, 0.63)),
+  url(asset/images/op4.jpg) 0 0 no-repeat; 
   background-size: cover;
   background-attachment: fixed !important;
   background-position: center;
@@ -343,7 +347,7 @@ body {
   margin: auto;
   min-width: 80%;
   border: 10px solid transparent;
-  border-image: repeating-linear-gradient(-45deg, #ec5242 0, #ec5242 1em, transparent 1em, transparent 2em,  #272a31 2em,#272a31 3em, transparent 3em, transparent 4em  ) 80 repeat;
+  border-image: repeating-linear-gradient(-45deg, #ec5242 0, #ec5242 1em, transparent 1em, transparent 2em,  #272a31 2em, #272a31 3em, transparent 3em, transparent 4em) 80 repeat;
 }
 
 .menu-button {
