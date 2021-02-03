@@ -131,6 +131,11 @@ body {
   margin: 0.2em 0;
 }
 
+.program {
+  visibility: visible;
+  animation-name: zoomIn;
+}
+
 .card-img {
   height: 50px;
   width: 60px;
@@ -219,14 +224,17 @@ body {
 }
 
 .brand-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  margin-bottom: 3.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 0 auto;
 }
 
 .brand-icons .cols {
-  width: 45%;
+  width: auto;
+  justify-content: center;
 }
 .partner img {
   margin: 0.4em;
@@ -295,6 +303,7 @@ body {
   color: #fff;
   text-align: center;
   height: 300px;
+  width: 100%;
 }
 
 .event-gallery-2 {
@@ -306,6 +315,7 @@ body {
   color: #fff;
   text-align: center;
   height: 300px;
+  width: 100%;
 }
 
 /*=============  Ticket Section =============*/
@@ -375,5 +385,16 @@ body {
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
+  }
+
+  .brand-icons {
+    width: 90%;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+
+  .partner img {
+    width: 100%;
+    margin: auto;
   }
 }

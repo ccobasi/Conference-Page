@@ -15,11 +15,20 @@
   </head>
   <body>
     <!-- Top Bar -->
-
+    <div class="top-bar d-none d-md-block">
+        <div class="container-fluid">
+          <div class="d-none d-md-block text-right text-white">
+              <a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#">English</a>
+              <a href="#">My Page</a>
+              <a href="#">Logout</a>
+          </div>
+        </div>
+    </div>
     <!-- End Top Bar -->
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
+    <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
       <div class="container">
         <a href="index.html" class="navbar-brand"
           ><img src="asset/images/logo.png" alt="Logo"
@@ -44,6 +53,9 @@
               <a href="ticket.html" class="nav-link">Ticket</a>
             </li>
           </ul>
+          <div class="d-none d-md-block ml-md-5">
+                        <a href="ticket.html" class="btn btn-outline rounded-0">Request</a>
+                    </div>
         </div>
       </div>
     </nav>
@@ -85,9 +97,9 @@
 
     <!-- Past Event Section -->
     <section class="past-event mb-5">
-      <div class="container">
+      <div class="container mt-5">
         <div class="event-wrap">
-          <div class="event-logo d-flex">
+          <div class="event-logo d-flex justify-content-md-center">
             <img src="asset/images/logo.png" alt="Logo" class="event-logo" \ />
             <h1>CWS Bootcamp 2020</h1>
           </div>
@@ -98,16 +110,19 @@
             </div>
             <hr class="mb-2 mt-3" />
           </div>
-
-          <div class="event-gallery-1 col-12 mb-1 pt-5">
+        
+        <div class="event-wraps d-flex flex-sm-column flex-md-row mt-5">
+          <div class="event-gallery-1 col-12 col-md-6 mb-1 mr-3 pt-5">
+            
             <h2 class="text-align-center">2020</h2>
             <p>CWS Bootcamp 2020</p>
           </div>
 
-          <div class="event-gallery-2 col-12 mb-1 pt-5">
+          <div class="event-gallery-2 col-12 col-md-6 mb-1 pt-5">
             <h2>2019</h2>
             <p>CWS Bootcamp 2019</p>
           </div>
+        </div>
         </div>
       </div>
     </section>
