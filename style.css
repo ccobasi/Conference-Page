@@ -114,6 +114,15 @@ body {
   margin: 0 auto;
 }
 
+.program-container {
+  width: 100%;
+  margin-bottom: 3.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  margin: auto;
+}
+
 .main-Program .cols {
   background-color: #ecebeb;
   color: #272a31;
@@ -129,6 +138,10 @@ body {
 
 .card-title {
   color: #ec5242;
+}
+
+.card-p {
+  font-size: small;
 }
 
 .section-button {
@@ -163,22 +176,27 @@ body {
   margin: 0 auto;
 }
 
-.instructors .cols {
-  background-color: #ecebeb;
-  color: #272a31;
+.instructor-container {
   width: 100%;
-  opacity: 0.9;
-  margin: 0.2em 0;
+  margin-bottom: 3.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  margin: auto;
 }
 
-.instructors .card-img {
-  width: 130px;
-  height: auto;
-  display: block !important;
-  margin: 1em 0px 0px;
+.instructor-container .card-img {
+  height: 120px;
+  width: 120px;
+  float: left;
 }
 
-small {
+.instructor-container .card-title {
+  color: #272a31;
+}
+
+.instructor-container .portfolio {
+  font-size: small;
   color: #ec5242;
 }
 
@@ -344,4 +362,18 @@ small {
   cursor: pointer;
   transition: all 0.3s;
   width: 150px;
+}
+
+@media (min-width: 768px) {
+  .program-container {
+    width: 90%;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+  }
+
+  .instructor-container {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
 }
