@@ -37,8 +37,7 @@ body {
   color: #272a31 !important;
 }
 
-.nav-link.active,
-.nav-link:hover {
+.nav-link.active, .nav-link:hover {
   color: #ec5242 !important;
 }
 
@@ -291,10 +290,7 @@ body {
 }
 
 .event-gallery-1 {
-  background:
-  linear-gradient(rgba(243, 106, 27, 0.61), 
-rgba(0, 0, 0, 0.63)),
-  url(asset/images/op1.jpg) 0 0 no-repeat;
+  background: linear-gradient(rgba(243, 106, 27, 0.61), rgba(0, 0, 0, 0.63)), url(asset/images/op1.jpg) 0 0 no-repeat;
   background-size: cover;
   background-attachment: fixed !important;
   background-position: center;
@@ -305,10 +301,7 @@ rgba(0, 0, 0, 0.63)),
 }
 
 .event-gallery-2 {
-  background: 
-  linear-gradient(rgba(243, 106, 27, 0.61), 
- rgba(0, 0, 0, 0.63)),
-  url(asset/images/op4.jpg) 0 0 no-repeat; 
+  background: linear-gradient(rgba(243, 106, 27, 0.61), rgba(0, 0, 0, 0.63)), url(asset/images/op4.jpg) 0 0 no-repeat;
   background-size: cover;
   background-attachment: fixed !important;
   background-position: center;
@@ -347,7 +340,7 @@ rgba(0, 0, 0, 0.63)),
   margin: auto;
   min-width: 80%;
   border: 10px solid transparent;
-  border-image: repeating-linear-gradient(-45deg, #ec5242 0, #ec5242 1em, transparent 1em, transparent 2em,  #272a31 2em, #272a31 3em, transparent 3em, transparent 4em) 80 repeat;
+  border-image: repeating-linear-gradient(-45deg, #ec5242 0, #ec5242 1em, transparent 1em, transparent 2em, #272a31 2em, #272a31 3em, transparent 3em, transparent 4em) 80 repeat;
 }
 
 .menu-button {
@@ -368,19 +361,16 @@ rgba(0, 0, 0, 0.63)),
     grid-template-columns: repeat(5, 1fr);
     gap: 5px;
   }
-
   .instructor-container {
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
   }
-
   .brand-icons {
     width: 90%;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
   }
-
   .partner img {
     width: 100%;
     margin: auto;
