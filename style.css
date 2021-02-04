@@ -94,7 +94,7 @@ body {
   color: #ec5242;
 }
 
-.landing-date p {
+.landing-date small {
   color: #ec5242;
 }
 
@@ -135,6 +135,7 @@ body {
   width: 100%;
   opacity: 0.9;
   margin: 0.2em 0;
+  height: 100%;
 }
 
 .program {
@@ -155,7 +156,14 @@ body {
   font-size: small;
 }
 
+.see-more {
+  visibility: hidden;
+  height: 40px;
+  margin: auto;
+}
+
 .section-button {
+  display: visible;
   font-size: 24px;
   margin: 56px 0;
   padding: 1.5rem;
@@ -163,7 +171,6 @@ body {
   border: none;
   background-color: #ec5242;
   color: #a4becd;
-  border-radius: 13px;
   cursor: pointer;
 }
 
@@ -250,6 +257,14 @@ body {
   height: 100px;
 }
 
+.footer-about {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+}
+
 .footer-logo {
   margin-right: 32px;
 }
@@ -282,15 +297,26 @@ body {
 }
 
 .contact-info {
-  width: 40%;
+  width: 80%;
 }
 
 /* =============  Past Event Section ============= */
+
+.past-event {
+  height: auto;
+}
 
 .past-event hr {
   background-color: #ec5242;
   width: 5%;
   margin: 0 auto;
+}
+
+.event-wraps {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+
 }
 
 .event-gallery-1 {
@@ -359,11 +385,34 @@ body {
   width: 150px;
 }
 
+@media (max-width: 380px) {
+  .event-wraps {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 50%;
+  }
+}
+
 @media (min-width: 768px) {
   .program-container {
     width: 90%;
     grid-template-columns: repeat(5, 1fr);
     gap: 5px;
+  }
+
+  .section-button {
+    display: none;
+  }
+
+  .see-more {
+    visibility: visible;
+  }
+
+  .see-more a {
+    color: #d3d3d3;
+    text-transform: uppercase;
+    text-decoration: underline;
   }
 
   .instructor-container {
@@ -381,5 +430,22 @@ body {
   .partner img {
     width: 100%;
     margin: auto;
+  }
+
+  .event-wraps {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .event-gallery-1 img{
+    width: 100%;
+  }
+
+  .footer-about {
+    background-color: #272a31;
+  }
+
+  .footer-about .footer-copyright {
+    color: #d3d3d3;
   }
 }
