@@ -24,6 +24,12 @@ I used the CSS checkbox trick to implement the mobile menu.
 - FontAwesome
 - Bootstrap 4
 
+![screenshot](./asset/images/CWS.png)
+
+![screenshot](./asset/images/CWS-mobile.png)
+
+
+
 
 ## Live Demo
 [Live Demo Link](https://ccobasi.github.io/Conference-Page/index.html)
