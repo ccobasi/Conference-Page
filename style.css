@@ -37,7 +37,8 @@ body {
   color: #272a31 !important;
 }
 
-.nav-link.active, .nav-link:hover {
+.nav-link .active, 
+.nav-link:hover {
   color: #ec5242 !important;
 }
 
@@ -361,16 +362,19 @@ body {
     grid-template-columns: repeat(5, 1fr);
     gap: 5px;
   }
+
   .instructor-container {
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
   }
+
   .brand-icons {
     width: 90%;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
   }
+
   .partner img {
     width: 100%;
     margin: auto;
