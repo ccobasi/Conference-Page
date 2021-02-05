@@ -1,0 +1,450 @@
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  color: #272a31;
+}
+
+.top-bar {
+  background-color: #272a31 !important;
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+}
+
+.top-bar a {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+/* ============= Navigation ============= */
+
+.navbar {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar-brand img {
+  height: 48px;
+}
+
+.nav-item {
+  padding: 8px;
+}
+
+.nav-link {
+  color: #272a31 !important;
+}
+
+.nav-link .active {
+  color: #ec5242 !important;
+}
+
+.nav-link:hover {
+  color: #ec5242 !important;
+}
+
+.btn-outline {
+  border: 4px solid #ec5242;
+  color: #ec5242;
+}
+
+.btn-outline:hover {
+  background-color: #ec5242;
+  color: #fff;
+}
+
+/* ============= Landing Section ============= */
+
+.landing-section {
+  width: 100%;
+  height: 80vh;
+  background: url(asset/images/landing-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+
+.landing-section-about {
+  background: url(asset/images/op2.jpg) 0 0 no-repeat;
+  background-size: cover;
+  background-attachment: fixed !important;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 4em 1em 1em 1em;
+  height: 50%;
+}
+
+.header-text {
+  color: #ec5242;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+.landing-p {
+  margin: 20px 0;
+  background-color: rgba(36, 32, 32, 0.5) !important;
+  border: 1px solid #fff;
+  color: #d3d3d3;
+}
+
+.landing-date h2 {
+  font-weight: 900;
+  color: #ec5242;
+}
+
+.landing-date small {
+  color: #ec5242;
+}
+
+/* ============= Main Program Section ============= */
+
+.main-Program {
+  background-color: #272a31;
+  background-size: cover;
+  height: auto;
+}
+
+.main-title {
+  color: #272a31;
+  font-weight: 900;
+}
+
+.main-Program .main-title {
+  color: #d3d3d3;
+}
+
+.main-Program hr {
+  background-color: #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.program-container {
+  width: 100%;
+  margin-bottom: 56px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+}
+
+.main-Program .cols {
+  background-color: #ecebeb;
+  color: #272a31;
+  width: 100%;
+  opacity: 0.9;
+  margin: 0.2em 0;
+  height: 100%;
+}
+
+.program {
+  visibility: visible;
+  animation-name: zoomIn;
+}
+
+.card-img {
+  height: 50px;
+  width: 60px;
+}
+
+.card-title {
+  color: #ec5242;
+}
+
+.card-p {
+  font-size: small;
+}
+
+.see-more {
+  visibility: hidden;
+  height: 40px;
+  margin: auto;
+}
+
+.section-button {
+  visibility: visible;
+  font-size: 24px;
+  margin: 56px 0;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  border: none;
+  background-color: #ec5242;
+  color: #a4becd;
+  cursor: pointer;
+}
+
+/* ============= Instructors Section ============= */
+
+.instructors {
+  background-color: #fff;
+  background-size: cover;
+  height: auto;
+}
+
+.instructors hr {
+  background-color: #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.instructor-container {
+  width: 100%;
+  margin-bottom: 56px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.instructor-container .card-img {
+  height: 120px;
+  width: 120px;
+  float: left;
+}
+
+.instructor-container .card-title {
+  color: #272a31;
+}
+
+.instructor-container .portfolio {
+  font-size: small;
+  color: #ec5242;
+}
+
+/* ============= Partner Section ============= */
+
+.partner {
+  background-color: #272a31;
+  background-size: cover;
+  height: auto;
+}
+
+.partner .main-title {
+  color: #d3d3d3;
+}
+
+.partner hr {
+  background-color: #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.brand-icons {
+  width: 100%;
+  margin-bottom: 56px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.brand-icons .cols {
+  width: auto;
+  justify-content: center;
+}
+
+.partner img {
+  margin: 0.4em;
+  width: 65%;
+}
+
+/* ============= Footer Section ============= */
+
+.footer {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+}
+
+.footer-about {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+}
+
+.footer-logo {
+  margin-right: 32px;
+}
+
+.footer-logo-img {
+  height: 80px;
+}
+
+.footer-copyright {
+  font-size: 16px;
+  align-self: center;
+  font-weight: 800;
+  color: #272a31;
+}
+
+.footer-copyright:hover {
+  color: #031f37;
+}
+
+/* =============  Contact Us Section ============= */
+
+.contact-us .main-title {
+  color: #272a31;
+}
+
+.contact-us hr {
+  background-color: #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.contact-info {
+  width: 80%;
+}
+
+/* =============  Past Event Section ============= */
+
+.past-event {
+  height: auto;
+}
+
+.past-event hr {
+  background-color: #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.event-wraps {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.event-gallery-1 {
+  background: linear-gradient(rgba(243, 106, 27, 0.61), rgba(0, 0, 0, 0.63)), url(asset/images/op1.jpg) 0 0 no-repeat;
+  background-size: cover;
+  background-attachment: fixed !important;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  height: 300px;
+  width: 100%;
+}
+
+.event-gallery-2 {
+  background: linear-gradient(rgba(243, 106, 27, 0.61), rgba(0, 0, 0, 0.63)), url(asset/images/op4.jpg) 0 0 no-repeat;
+  background-size: cover;
+  background-attachment: fixed !important;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  height: 300px;
+  width: 100%;
+}
+
+/* =============  Ticket Section ============= */
+
+.ticket hr {
+  background-color: #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.step-1 {
+  margin: 3rem 0;
+  padding: 1rem;
+  display: inline-flex;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #a4becd;
+  border-radius: 20rem;
+  font-weight: 300;
+}
+
+.step-info {
+  color: #ec5242;
+  font-weight: bold;
+  padding-right: 16px;
+}
+
+.ticket-table {
+  margin: auto;
+  min-width: 80%;
+  border: 10px solid transparent;
+  border-image: repeating-linear-gradient(-45deg, #ec5242 0, #ec5242 1em, transparent 1em, transparent 2em, #272a31 2em, #272a31 3em, transparent 3em, transparent 4em) 80 repeat;
+}
+
+.menu-button {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  border: none;
+  background-color: #ec5242;
+  color: #d3d3d3;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 150px;
+}
+
+@media (max-width: 380px) {
+  .event-wraps {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .program-container {
+    width: 90%;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+  }
+
+  .section-button {
+    display: none;
+  }
+
+  .see-more {
+    visibility: visible;
+  }
+
+  .see-more a {
+    color: #d3d3d3;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  .instructor-container {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+
+  .brand-icons {
+    width: 90%;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+
+  .partner img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .event-wraps {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .event-gallery-1 img {
+    width: 100%;
+  }
+
+  .footer-about {
+    background-color: #272a31;
+  }
+
+  .footer-about .footer-copyright {
+    color: #d3d3d3;
+  }
+}
